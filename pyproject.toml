@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "projeto de análise de dados do youtube"
+version = "0.1.0"
+description = "Projeto de análise dados provenientes da plataforma de videos youtube com videos publicados em 1 ano dos paises Brasil, Estados Unidos, Reino Unido e Canada."
+authors = ["Guilherme Canfield <guilherme.canfield87@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+deepdiff = "^7.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
